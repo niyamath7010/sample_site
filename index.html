@@ -4,10 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>page1</title>
+    <link rel="stylesheet" href="./index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>SIGN UP</title>
 </head>
 <body>
-    <h1>hi this is first page</h1>
-    <a href="./inddex1.html"><h2>click me </h2></a>
+    <div class="main_containter">
+             <a class="niya_href" href=""><h2 class="niyamath">NIYAMATH</h2></a>
+         <h1 class="sign">Sign Up</h1>
+         <h3>Already Have Account?<a class="nothing" href="">LogIn</a></h3>
+         <div class="conatiner">
+             <div class="container_leftside">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">User Name</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="enter your name">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="enter your name">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Enter Password</label>
+                <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="enter your name">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Confirm Password</label>
+                <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="enter your name">
+              </div>
+              <button type="button" class="btn btn-dark">Sign up</button>
+            </div>
+            <div class="container_rightside">
+               <a href=""> <div class="facebook">
+                    <img class="fb" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPYy8jhcSMMMjpAq5d6Lwjv_iV7qFaYXF-Og&usqp=CAU" alt="no pic found">
+                    <a class="fb_href" href=""> <h6 class="fb_font">Continue With Facebook</h6></a>
+                </div></a>
+                <br><br>
+                <a href=""><div class="google">
+                    <img class="fb" src="data:image/png;base64,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" alt="no pic found" >
+                    <a class="google_href" href=""> <h6 class="google_font">Continue With Google</h6></a>
+                </div></a>
+            </div>
+         </div>
+         <div class="bottom">
+             <p class="para">* By signing up, you agree to our <a class="nothing" href=""> Terms of Use</a> and to receive points<br>
+                emails & updates and acknowledge that you read our<a class="nothing" href=""> Privacy Policy.</a>
+                <br><br>
+                This site is protected by reCAPTCHA Enterprise and the Google<br>
+               <a class="nothing" href=""> Privacy Policy</a> And <a class="nothing" href="">Terms of Use apply</a>
+            </p>
+         </div>
+         <div class="challange">
+             👇🏻<br>👇🏻<br>👇🏻<br>👇🏻<br>👇🏻<br>👇🏻👇🏻👇🏻👇🏻
+         <h1>hey you hidayat <a href="./inddex1.html"> click here</h1></a></div>
+   </div>
+
+   
 </body>
 </html>

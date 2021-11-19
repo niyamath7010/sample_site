@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(205, 213, 219);
+}
+.main_containter{
+    padding-left: 40px;
+}
+.sign{
+    font-size: 5rem;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h3{
+    padding-top: 15px;
+    text-align: center;
+}
+.mb-3{
+    width: 500px;
+}
+.facebook{
+    display: flex;
+    /* flex-direction: column; */
+    padding: 10px;
+    background-color:cornflowerblue;
+    border-radius: 20px;
+    
+}
+.google{
+    display: flex;
+    /* flex-direction: column; */
+    padding: 8px;
+    border-radius: 20px;
+    background-color: rgb(43, 158, 187);
+  
+}
+.fb_font{
+    padding-top: 7px;
+    margin-left: 20px;
+    background-color: cornflowerblue;
+    
+}
+.fb{
+    width: 40px;
+    border-radius: 50%;
+}
+.google_font{
+    padding-top: 7px;
+    margin-left: 25px;
+    background-color: rgb(43, 158, 187);
+    text-decoration: none;
+    
+}
+.conatiner{
+    display: flex;
+    max-width: 100%;
+    padding-top: 60px
+    
+}
+.container_rightside{
+    margin-left: 200px;
+    padding-top: 70px;
+    width: 300px;
+}
+
+.container_leftside{
+    margin-left: 100px;
+    
+    
+}
+.bottom{
+    text-align: center;
+    padding-top: 70px;
+}
+
+.niyamath{
+    font-family: fantasy;
+    font-size: 40px;
+    position: absolute;
+    padding-left: 10px;
+    
+}
+.niya_href{
+    text-decoration: none;
+    text-shadow: 2px 2px rgb(155, 85, 85);
+}
+.niya_href:hover{
+    color: rosybrown;
+}
+.fb_href{
+    text-decoration: none;
+    background-color: cornflowerblue;
+    color: black;
+}
+.fb_href:hover{
+    color: rgb(70, 58, 179);
+}
+.google_href{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(43, 158, 187);
+}
+.nothing{
+    text-decoration: none;
+}
+.btn-dark{
+margin-left: 30px;
+}
+.challange{
+    padding-top: 40px;
+    text-align: center;
+}
